@@ -16,25 +16,25 @@ The primary aim of this project was to **design, implement, and evaluate an ETL-
 ## 🖥 Application Screenshots
 
 ### Login Screen
-![Login Screen](Images/Login.png)
+<img src="Images/Login.png" width="420">
 
 ### Student Dashboard
-![Student Dashboard](Images/Student.png)
+<img src="Images/Student.png" width="420">
 
 ### Chief Librarian
-![Chief Librarian Dashboard](Images/Chief-Librarian.png)
+<img src="Images/Chief-Librarian.png" width="420">
 
 ### Departmental Head Dashboard
-![Departmental Head Dashboard](Images/Departmental-Head.png)
+<img src="Images/Departmental-Head.png" width="420">
 
 ### Facilities Director Dashboard 
-![Facilities Director Dashboard](Images/Facilities-Director.png)
+<img src="Images/Facilities-Director.png" width="420">
 
 ### Finance Director Dashboard
-![Finance Director Dashboard](Images/Finance-Director.png)
+<img src="Images/Finance-Director.png" width="420">
 
 ### Vice Chancellor
-![Vice Chancellor Dashboard](Images/Vice-Chancellor.png)
+<img src="Images/Images/Vice-Chancellor.png" width="420">
 
 ## 🛠 Tech Stack
 
