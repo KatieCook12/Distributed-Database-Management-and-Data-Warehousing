@@ -1,0 +1,52 @@
+/* Styles the text field boxes when they're focused on. */
+.text-field:focused {
+    -fx-text-box-border: #f7f7f7;
+    -fx-border-color: #145E71;
+}
+
+/* Styles the regular text field input boxes. */
+.text-field
+{
+    -fx-border-color: #424566;
+    -fx-prompt-text-fill: #465058;
+    -fx-border-radius: 200px;
+    -fx-background-color: #001621;
+    -fx-text-fill: #f7f7f7;
+}
+
+/* Styles the buttons. */
+.button{
+    -fx-background-color: #145E71;
+    -fx-background-radius: 200px;
+}
+
+/* Styles the buttons when hovered over. */
+.button:hover{
+    -fx-background-color: #125365;
+}
+
+/* Styles the table column headers. */
+.table-view .column-header {
+    -fx-background-color: #145E71;
+}
+
+/* Styles the text in the table column headers. */
+.table-view .column-header .label{
+    -fx-text-fill: #f7f7f7;
+}
+
+/* Adds slight dividers between headers. */
+.table-view .column-header {
+    -fx-border-color: #145E71;
+    -fx-border-width: 1;
+}
+
+/* Colours the scroll bar background. */
+.table-view .scroll-bar {
+    -fx-background-color: #f7f7f7;
+}
+
+/* Changes the background colour of the scroll bar. */
+.table-view .scroll-bar .thumb {
+    -fx-background-color: #145E71;
+}

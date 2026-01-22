@@ -1,0 +1,66 @@
+/* Styles the text field boxes when they are clicked on. */
+.text-field:focused {
+    -fx-border-color: #145E71;
+    -fx-text-fill: #465058;
+}
+
+/* Styles the regular text field input boxes. */
+.text-field {
+    -fx-border-color:  #424566;
+    -fx-prompt-text-fill: #949494;
+    -fx-border-radius: 200px;
+    -fx-background-color:  transparent;
+    -fx-text-fill: #465058;
+}
+
+/* Styles the buttons. */
+.button {
+    -fx-background-color: #145E71;
+    -fx-background-radius: 200px;
+}
+
+/* Styles the buttons when hovered on. */
+.button:hover {
+    -fx-text-fill: #cccccc;
+}
+
+/* Styles the buttons when they are focused. */
+.button:focused {
+    -fx-text-fill: #cccccc;
+}
+
+/* Makes every other row light blue within the JavaFXs table. */
+.table-view .table-row-cell:odd {
+    -fx-background-color: #dcf3f9;
+}
+
+/* Styles the table column headers. */
+.table-view .column-header {
+    -fx-background-color: #145E71;
+}
+
+/* Styles the text in the table column headers. */
+.table-view .column-header .label {
+    -fx-text-fill: #f7f7f7;
+}
+
+/* Adds slight dividers between table column headers. */
+.table-view .column-header {
+    -fx-border-color: #145E71;
+    -fx-border-width: 1;
+}
+
+/* Colours the scroll bar background. */
+.table-view .scroll-bar {
+    -fx-background-color:  #f7f7f7;
+}
+
+/* Colours the scroll bar thumb. */
+.table-view .scroll-bar .thumb {
+    -fx-background-color:  #145E71;
+}
+
+/* Styles the "+" button on the right top corner. */
+.table-view > .column-header-background > .show-hide-columns-button {
+    -fx-background-color: #f7f7f7; /* Changes the "+" button color to light gray */
+}

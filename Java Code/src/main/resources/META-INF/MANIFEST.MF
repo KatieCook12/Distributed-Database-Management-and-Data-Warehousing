@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.example.ct6049_distributed_database_management_and_data_
+ warehousing_oracle.Launcher
+

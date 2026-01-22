@@ -1,0 +1,22 @@
+REM INSERTING into TBLBOOK
+SET DEFINE OFF;
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (1,2,'The Selfish Gene','Richard Dawkins','Biology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (2,3,'Sapiens: A Brief History of Humankind','Yuval Noah Harari','Biology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (3,2,'The Immortal Life of Henrietta Lacks','Rebecca Skloot','Biology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (4,2,'The Origin of Species','Charles Darwin','Biology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (5,2,'The Gene: An Intimate History','Siddhartha Mukherjee','Biology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (6,1,'Good to Great: Why Some Companies Make the Leap... and Others Don''t','Jim Collins','Business',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (7,1,'The Lean Startup: How Today''s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses','Eric Ries','Business',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (8,1,'Principles: Life and Work','Ray Dalio','Business',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (9,1,'The Innovator''s Dilemma: When New Technologies Cause Great Firms to Fail','Clayton M. Christensen','Business',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (10,4,'Clean Code: A Handbook of Agile Software Craftsmanship','Robert C. Martin','Technical',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (11,4,'Code: The Hidden Language of Computer Hardware and Software','Charles Petzold','Technical',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (12,4,'The Mythical Man-Month: Essays on Software Engineering','Frederick P. Brooks Jr.','Technical',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (13,5,'Cracking the Coding Interview: 189 Programming Questions and Solutions','Gayle Laakmann McDowell','Technical',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (14,1,'Machine Design','Robert L. Norton','Engineering',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (15,2,'Man''s Search for Meaning','Viktor E. Frankl','Psychology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (16,3,'The Power of Habit: Why We Do What We Do in Life and Business','Charles Duhigg','Psychology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (17,3,'Quiet: The Power of Introverts in a World That Can''t Stop Talking','Susan Cain','Psychology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (18,3,'The Psychology of Intelligence','Jean Piaget','Psychology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (19,3,'Blink: The Power of Thinking Without Thinking','Malcolm Gladwell','Psychology',1);
+Insert into TBLBOOK (BOOK_ID,LIBRARY_DEPARTMENT_ID,TITLE,AUTHOR,GENRE,AVAILABLE) values (20,3,'Emotional Intelligence: Why It Can Matter More Than IQ','Daniel Goleman','Psychology',1);

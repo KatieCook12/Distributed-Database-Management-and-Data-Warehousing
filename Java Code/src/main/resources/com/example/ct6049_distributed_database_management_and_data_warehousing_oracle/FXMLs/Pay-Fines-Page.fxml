@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="749.634" prefWidth="1000.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ct6049_distributed_database_management_and_data_warehousing_oracle.ApplicationLayer.Controllers.PayFinesPage">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="749.634" maxWidth="309.0" minHeight="749.634" prefHeight="749.634" prefWidth="309.0" style="-fx-background-color: #145E71;">
+         <children>
+            <ImageView fitHeight="142.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/GoBooks-Logo-White-Text-White-Icon.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="64.0" />
+               </VBox.margin>
+            </ImageView>
+            <HBox alignment="CENTER" prefHeight="21.0" prefWidth="587.0" spacing="64.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="29.0" prefWidth="375.0" textAlignment="CENTER" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="6.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="21.0" prefWidth="587.0" spacing="64.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="29.0" prefWidth="375.0" textAlignment="CENTER" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="64.0" top="4.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </HBox>
+            <VBox maxWidth="243.0" prefHeight="189.0" prefWidth="243.0" spacing="25.0">
+               <children>
+                  <Button maxHeight="35.78" maxWidth="243.0" mnemonicParsing="false" onAction="#finePaymentsReportButton" prefHeight="35.78" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Payment History Report" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button maxHeight="35.78" maxWidth="243.0" mnemonicParsing="false" onAction="#payFineButton" prefHeight="35.78" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Pay Fines" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button maxHeight="35.78" maxWidth="243.0" mnemonicParsing="false" onAction="#bookBorrowingHistoryButton" prefHeight="35.78" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Borrowing History" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button maxWidth="243.0" mnemonicParsing="false" onAction="#borrowBookButton" prefHeight="37.0" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Borrow Book" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button maxWidth="243.0" mnemonicParsing="false" onAction="#returnBookButton" prefHeight="37.0" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Return Book" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button maxWidth="243.0" mnemonicParsing="false" onAction="#logOutButton" prefHeight="37.0" prefWidth="243.0" stylesheets="@../CSS/Main.css" text="Log Out" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </padding>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="313.0" prefHeight="650.0" prefWidth="637.0" spacing="49.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="363.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <Label text="Pay Fines" textFill="#1b1d2c">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableView" prefHeight="522.0" prefWidth="587.0" style="-fx-background-color: transparent;" stylesheets="@../CSS/Main.css" tableMenuButtonVisible="true">
+               <columns>
+                  <TableColumn fx:id="loanIDColumn" prefWidth="83.85" text="Loan ID" />
+                  <TableColumn fx:id="titleColumn" prefWidth="83.85" text="Title" />
+                  <TableColumn fx:id="authorColumn" prefWidth="83.85" text="Author" />
+                  <TableColumn fx:id="dateBorrowedColumn" prefWidth="83.85" text="Borrow Date" />
+                  <TableColumn fx:id="returnByDateColumn" prefWidth="83.85" text="Return Date" />
+                  <TableColumn fx:id="returnStatusColumn" prefWidth="83.85" text="Returned" />
+                  <TableColumn fx:id="fineColumn" prefWidth="83.85" text="Fine" />
+               </columns>
+            </TableView>
+            <HBox alignment="CENTER" prefHeight="21.0" prefWidth="587.0" spacing="34.0">
+               <children>
+                  <TextField fx:id="loanIDTextField" maxHeight="35.78" maxWidth="261.8" prefHeight="35.78" prefWidth="261.8" promptText="Loan ID..." stylesheets="@../CSS/Main.css">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="payTextField" maxHeight="35.78" maxWidth="261.8" prefHeight="35.78" prefWidth="261.8" promptText="Amount (e.g 2)..." stylesheets="@../CSS/Main.css">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Button maxHeight="35.78" maxWidth="261.8" mnemonicParsing="false" onAction="#payButton" prefHeight="35.78" prefWidth="261.8" stylesheets="@../CSS/Main.css" text="Pay" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

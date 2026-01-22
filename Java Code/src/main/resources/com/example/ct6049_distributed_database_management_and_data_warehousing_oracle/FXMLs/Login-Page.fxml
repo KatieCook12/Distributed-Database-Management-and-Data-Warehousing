@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="749.634" prefWidth="1000.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ct6049_distributed_database_management_and_data_warehousing_oracle.ApplicationLayer.Controllers.LoginPage">
+   <center>
+      <VBox alignment="CENTER" style="-fx-background-color: #001621;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="147.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/GoBooks-Logo-White-Text.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="51.0" />
+               </VBox.margin>
+            </ImageView>
+            <Label text="All-in-one solution for university and library management." textFill="#e3e3e3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="70.0" />
+               </VBox.margin>
+            </Label>
+            <VBox alignment="CENTER" spacing="42.0">
+               <children>
+                  <TextField fx:id="tf_email" maxHeight="35.78" maxWidth="401.0" prefHeight="35.78" prefWidth="491.0" promptText="Email" stylesheets="@../CSS/Login.css">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="tf_password" maxHeight="35.78" maxWidth="401.0" prefHeight="35.78" prefWidth="581.0" promptText="Password" stylesheets="@../CSS/Login.css">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </TextField>
+                  <Button id="button" maxHeight="35.78" maxWidth="401.0" mnemonicParsing="false" onAction="#loginButton" prefHeight="35.78" prefWidth="574.0" style="-fx-background-radius: 200px;" stylesheets="@../CSS/Login.css" text="Login" textFill="#e3e3e3">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

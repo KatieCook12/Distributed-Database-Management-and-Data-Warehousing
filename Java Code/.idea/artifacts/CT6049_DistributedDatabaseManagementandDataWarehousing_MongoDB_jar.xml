@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CT6049-DistributedDatabaseManagementandDataWarehousing-MongoDB:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CT6049_DistributedDatabaseManagementandDataWarehousing_MongoDB_jar</output-path>
+    <root id="archive" name="CT6049-DistributedDatabaseManagementandDataWarehousing-MongoDB.jar">
+      <element id="module-output" name="CT6049-DistributedDatabaseManagementandDataWarehousing-MongoDB" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/ha/ons/21.1.0.0/ons-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/20-ea+4/javafx-base-20-ea+4-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/security/osdt_cert/21.1.0.0/osdt_cert-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/20-ea+4/javafx-fxml-20-ea+4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/20-ea+4/javafx-base-20-ea+4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/nls/orai18n/21.1.0.0/orai18n-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/jdbc/rsi/21.1.0.0/rsi-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/xml/xmlparserv2/21.1.0.0/xmlparserv2-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/20-ea+4/javafx-graphics-20-ea+4-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/20-ea+4/javafx-fxml-20-ea+4-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/security/oraclepki/21.1.0.0/oraclepki-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/security/osdt_core/21.1.0.0/osdt_core-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/20-ea+4/javafx-graphics-20-ea+4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/20-ea+4/javafx-controls-20-ea+4-win.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: com.oracle.database.jdbc:ojdbc8-production:21.1.0.0" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/jdbc/ojdbc8/21.1.0.0/ojdbc8-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/xml/xdb/21.1.0.0/xdb-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/20-ea+4/javafx-controls-20-ea+4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/ha/simplefan/21.1.0.0/simplefan-21.1.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/oracle/database/jdbc/ucp/21.1.0.0/ucp-21.1.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
