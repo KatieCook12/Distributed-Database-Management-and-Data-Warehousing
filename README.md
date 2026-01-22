@@ -13,6 +13,29 @@ The primary aim of this project was to **design, implement, and evaluate an ETL-
 
 ---
 
+## 🖥 Application Screenshots
+
+### Login Screen
+![Login Screen](Images/Login.png)
+
+### Student Dashboard
+![Student Dashboard](Images/Student.png)
+
+### Chief Librarian
+![Chief Librarian Dashboard](Images/Chief-Librarian.png)
+
+### Departmental Head Dashboard
+![Departmental Head Dashboard](Images/Departmental-Head.png)
+
+### Facilities Director Dashboard 
+![Facilities Director Dashboard](Images/Facilities-Director.png)
+
+### Finance Director Dashboard
+![Finance Director Dashboard](Images/Finance-Director.png)
+
+### Vice Chancellor
+![Vice Chancellor Dashboard](Images/Vice-Chancellor.png)
+
 ## 🛠 Tech Stack
 
 - **Java (JDK 20 / 21+)** – Core application logic  
