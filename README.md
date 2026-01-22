@@ -34,7 +34,7 @@ The primary aim of this project was to **design, implement, and evaluate an ETL-
 <img src="Images/Finance-Director.png" width="420">
 
 ### Vice Chancellor
-<img src="Images/Images/Vice-Chancellor.png" width="420">
+<img src="Images/Vice-Chancellor.png" width="420">
 
 ## 🛠 Tech Stack
 
